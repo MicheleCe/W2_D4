@@ -18,16 +18,25 @@ for (let i = 0; i < pets.length; i++) {
 /* ESERCIZIO 2
     Scrivi del codice per ordinare alfabeticamente gli elementi dell'array "pets".
 */
- console.log(pets.sort())
+ console.log(pets.sort()) 
+ 
+ //.sort di default ordina i valori in ordine alfabetico in caso di stringhe o crescente in caso di numeri
+
+
 /* ESERCIZIO 3
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
 */
-console.log(pets.reverse())
+console.log(pets.reverse()) 
+
+// riordina la contrario gli elementi presenti nell'array
+
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
 pets.push(pets.shift())
 console.log(pets)
+
+// shift seleziona il primo elemento dell'array rimuovendolo, push prende l'elemento e lo posiziona per ultimo
 
 /* ESERCIZIO 5
     Dato il seguente array di oggetti, scrivi del codice per aggiungere ad ognuno di essi una proprietà "licensePlate" con valore a tua scelta.
@@ -94,6 +103,7 @@ for (let i = 0; i < cars.length; i++) {
   else (console.log("Buzz"))
 }
 
+// charAt seleziona una lettera di una stringa, [0] corrisponde alla prima
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
 */

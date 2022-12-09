@@ -90,7 +90,7 @@ h2 {
 
 main a {
     text-decoration: none;
-    color: rgb(10, 88, 105);
+    color: rgb(12, 143, 170);
     padding-left: 10px;
     font-weight: 800;
     font-size: 1rem;
@@ -139,7 +139,6 @@ main a {
     text-decoration: underline;
     margin: 10px;
     color: #fff;
-    background-color: rgb(54, 71, 89);
 }
 
 

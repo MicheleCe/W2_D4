@@ -1,0 +1,148 @@
+body {
+    font-style: arial;
+    background-color: rgb(233, 237, 238);
+}
+header {
+    background-color: rgb(34, 47, 63);
+}
+
+.nav {
+    background-color: rgb(54, 71, 89);
+    margin: 0;
+    padding-left: 10px;
+}
+
+
+div {
+    margin-top: 20px;
+    
+}
+.logo {
+    height: 40px;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+span {
+    padding: 2px;
+}
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin: 10px;
+}
+
+main {
+    padding: 20px;
+    max-width:1280px; margin-left:auto ;margin-right:auto;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+.gift {
+    background-color: rgb(245, 102, 0);
+    color: #fff;
+    text-align: center;
+}
+
+.gift h4 {
+    padding: 15px;
+}
+
+.holiday{
+    text-align: center;
+    margin-top: 20px;
+    background-image: url(./assets/bg-image.png);
+    background-size: contain;
+    color: #fff;
+}
+.holiday h1{
+    font-size: 1.7rem;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-weight: 900;
+}
+
+.holiday h3 {
+    padding-bottom: 35px;
+}
+
+.cards {
+    background-color: #fff;
+    text-align: center;
+}
+
+.cards h2 {
+    text-align: left;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+main a {
+    text-decoration: none;
+    color: rgb(10, 88, 105);
+    font-size: 1rem;
+    font-weight: 900;
+    padding-left: 10px;
+}
+.cards div {
+    
+    display: inline-block;
+    margin: 10px;
+    
+
+}
+
+.cards img {
+    object-fit: cover;
+    border-radius: 20px;
+    height: 400px;
+    width: 280px;
+    box-shadow: 10px 5px 20px 5px rgba(171, 170, 170, 0.493)
+}
+
+.gaming img {
+    width: 100%;
+}
+
+.gaming h2 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.accessories img{
+    width: 100%;
+}
+
+.accessories h2{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.back {
+    background-color: rgb(54, 71, 89);
+    text-align: center;
+    margin-bottom: 0;
+}
+
+button {
+    border: none;
+    margin: 10px;
+    color: #fff;
+    background-color: rgb(54, 71, 89);
+}
+
+.foot {
+    background-color: rgb(34, 47, 63);
+    text-align: center;
+    margin-top: 0;
+}
+
+.foot img {
+    width: 300px;
+    margin: 10px;
+    margin-top: 70px;
+}

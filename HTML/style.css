@@ -76,6 +76,12 @@ h2 {
     font-weight: 600;
 }
 
+.cards div {
+    
+    display: inline-block;
+    margin: 10px;
+}
+
 .cards {
     background-color: #fff;
     text-align: center;
@@ -95,13 +101,6 @@ main a {
     font-weight: 800;
     font-size: 1rem;
 }
-.cards div {
-    
-    display: inline-block;
-    margin: 10px;
-    
-
-}
 
 .cards img {
     object-fit: cover;
@@ -111,20 +110,11 @@ main a {
     box-shadow: 10px 5px 20px 5px rgba(171, 170, 170, 0.493)
 }
 
-.gaming img {
+.element img {
     width: 100%;
 }
 
-.gaming h2 {
-    text-align: center;
-    padding-top: 10px;
-}
-
-.accessories img{
-    width: 100%;
-}
-
-.accessories h2{
+.element h2 {
     text-align: center;
     padding-top: 10px;
 }
